@@ -1,0 +1,7 @@
+FROM dart:2.15
+
+WORKDIR /app
+
+COPY . /app/
+
+CMD ["dart", "calc.dart"]
